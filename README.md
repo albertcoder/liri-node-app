@@ -1,7 +1,12 @@
 # liri-node-app
 A nodejs app which searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-## How to use the app.
+## How to install the app?
+```
+git clone git@github.com:albertcoder/liri-node-app.git
+```
+
+## How to use the app?
 This app is a commmand line node js app so you need to first of all make sure you have nodejs installed on your system. Refer https://nodejs.org/en/download/ for download / install. Next, you need to go to the root directory of the liri app. Then run the following command:
 ```javascript
 node liri.js
