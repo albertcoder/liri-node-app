@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "A nodejs app which searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertcoder/liri-node-app.git"
+  },
+  "author": "Albert Snowlove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertcoder/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/albertcoder/liri-node-app#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {}
+}
