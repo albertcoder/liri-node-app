@@ -6,6 +6,8 @@ var request = require("request");
 var moment = require("moment");
 var fs = require("fs");
 var spotify = new Spotify(keys.spotify);
+var inquirer = require('inquirer');
+
 
 //Helper function that gets the artist name
 var getArtistNames = function (artist) {

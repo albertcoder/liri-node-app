@@ -2,9 +2,20 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "A nodejs app which searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.",
-  "main": "keys.js",
+  "main": "liri.js",
+  "dependencies": {
+    "bandsintown": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node liri.js"
   },
   "repository": {
     "type": "git",
@@ -15,12 +26,5 @@
   "bugs": {
     "url": "https://github.com/albertcoder/liri-node-app/issues"
   },
-  "homepage": "https://github.com/albertcoder/liri-node-app#readme",
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "moment": "^2.22.2",
-    "node-spotify-api": "^1.0.7",
-    "request": "^2.88.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/albertcoder/liri-node-app#readme"
 }
